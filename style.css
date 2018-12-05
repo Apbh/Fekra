@@ -38,7 +38,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
   header{
   	
-  	height:680px;
+  	min-height:680px;
   	
   }
 
@@ -180,8 +180,7 @@ margin:5px;
 .b-one{
 	background-color:transparent; 
 	border: 1px solid white;
-	width: 147px;
-	height: 38px;
+	padding:10px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
@@ -190,8 +189,7 @@ margin:5px;
 .b-two{
 	background-color:  #2ecc71;
 	border:1px solid #2ecc71;
-	width: 147px;
-	height: 38px;
+	padding:10px;
 	text-align:center;
 	display:inline-block;
 
@@ -284,8 +282,7 @@ margin:5px;
 }
 
 .about-company img{
-	width:338px;
-	height:270px;
+	width:100%;
 }
 
 .about-company h4{
@@ -316,15 +313,14 @@ margin:5px;
 	font-weight: 400;
 	line-height: 20px;
 	text-align: left;
-	transform: scaleX(1.0005);
 	text-transform:uppercase;
 	background-color:transparent; 
 	border: 1px solid lightgrey;
-	width: 101px;
-	height: 34px;
+	padding:10px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
+	transition: all 0.3s
 
 
 }
@@ -717,8 +713,7 @@ text-align: left;
 	border-color:  #2a2a2a;
 	box-sizing: border-box;
 	background-color:  rgba(255, 255, 255, 0);
-	width: 127px;
-	height: 38px;
+	padding:10px;
 	/*text*/
 	font-family: 'Lato', sans-serif;
 	color:  #2a2a2a;
@@ -726,7 +721,7 @@ text-align: left;
 	font-weight: 400;
 	line-height: 20px;
 	text-align: left;
-	transform: scaleX(1.0005);
+	transition: all 0.3s;
 	text-transform:uppercase;
 	text-align:center;
 	margin-right:5px;
@@ -746,7 +741,6 @@ text-align: left;
 
 .computer img{
 	width:320px;
-	height:300px;
 	margin-left:25px;
 }
 
@@ -868,7 +862,6 @@ text-align: left;
 	font-weight: 400;
 	line-height: 23.963px;
 	text-align: left;
-	transform: scaleY(1.0017);
 	margin-top:2px;
 }
 
@@ -958,8 +951,7 @@ h3 .creative{
 	border-color:  #2a2a2a;
 	box-sizing: border-box;
 	background-color:  rgba(255, 255, 255, 0);
-	width: 127px;
-	height: 38px;
+	padding:10px;
 	font-family:'Lato' sans-serif;
 	color:  #2a2a2a;
 	font-size: 1.3rem;
@@ -969,13 +961,12 @@ h3 .creative{
 	transform: scaleX(1.0005);
 	text-transform:uppercase;
 	margin:5px;
+	transition: all 0.3s
 
 }
 
 .theme-button:hover{
 	background-color:#2ecc71;
-	width: 147px;
-	height: 38px
 	color:#ffffff;
 }
 
@@ -1003,8 +994,6 @@ h3 .creative{
 	border:transparent;
 	background-color:white;
 	color:rgb(192, 192, 192);
-	width:158px;
-	height:33px;
 
 
 }
