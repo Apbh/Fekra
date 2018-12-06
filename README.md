@@ -4,6 +4,6 @@ Fekra, a single page website was created as part of an assignment where the end 
 
 
 Created Using:
-HTML5
-CSS3
-Flexbox
+* HTML5
+* CSS3
+* Flexbox
